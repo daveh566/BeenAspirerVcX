@@ -1,7 +1,7 @@
 {
   "name": "BeenAspirerVcX",
-  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "logo": "https://telegra.ph/file/aab1116662e9f61d2c4ef.jpg",
+  "description": "Vc Bot To Play Songs In Telegram Groups And Channels. Powered by Been Aspirer.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/daveh566/BeenAspirerVcX",
   "stack": "heroku-20",
@@ -47,7 +47,7 @@
     },
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
-      "required": true,
+      "required": false,
       "value": ""
     },    
     "BG_IMAGE": {
