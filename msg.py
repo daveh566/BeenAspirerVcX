@@ -1,0 +1,88 @@
+import os
+from config import SOURCE_CODE
+from config import ASSISTANT_NAME
+from config import PROJECT_NAME
+from config import SUPPORT_GROUP
+from import UPDATES_CHANNEL
+class Messages():
+      START_MSG = "**HELLO 👋 [{}](tg://user?id={})!**\n\n🤖 I AM A COOL VC BOT FOR PLAYING SONGS IN GROUPS VCS.\n\n✅ CLICK /help FOR MORE PARTICULARS."
+      HELP_MSG = [
+        ".",
+f"""
+**HELLO 👋 WELCOME AGAIN 😊❤️ TO {PROJECT_NAME}
+
+⚪️ {PROJECT_NAME} CAN ONLY PLAY MUSIC IN GROUPS BECAUSE IT'S NOT FULLY DEVELOPED
+
+⚪️ MY ASSISTANT NAME IS >> @{ASSISTANT_NAME}\n\nClICK NEXT FOR SETTING ME UP**
+""",
+
+f"""
+**SETTING UP**
+
+I) PROMOTE THE BOT AS AN ADMIN 
+II) MAKE SURE THERE'S A VOICE CHAT(START THE VOICE CHAT)
+II) TRY /play [SONG NAME] FOR THE FIRST TIME BY AN ADMIN
+*) IF THE USERBOT DOESN'T JOIN ADD IT MANUALLY AND MAKE SURE IT'S NOT BANNED IN YOUR GROUP
+
+**CHANNEL PLAY**
+COMING SOON
+""",
+f"""
+**Commands**
+
+**=>> SONG PLAYING 🎧**
+
+- /play: TYPE YOUR SONG AFTER /PLAY
+- /play [YT URL] : PLAY THE GIVEN YT LINK
+- /play [REPLY TO A AUDIO]: TO PLAY THE AUDIO FILE
+PLEASE CONTACT @aspirer3 or @famouskaykay IF YOU GET ANY ERROR
+**=>> PLAYBACK ⏯**
+
+- /player: OPEN SETTINGS MENU OF THE BOT
+- /skip: SKIPS THE CURRENT PLAYING SONG
+- /pause: PAUSE SONG
+- /resume: RESUMES THE PAUSED SONG
+- /end: STOPS MEDIA PLAYBACK
+- /current: SHOWS THE CURRENT PLAYING TRACK
+- /playlist: SHOWS PLAYLIST
+
+*ALL COMMANDS EXCEPT /play, /current  AND /playlist  ARE ONLY FOR ADMINS.
+""",
+
+f"""
+**=>> CHANNEL MUSIC SOON**
+
+⚪️ LINKED GROUPS ADMIN ONLY:
+
+- /cplay [SONG NAME] - PLAY SONG YOU REQUESTED
+""",
+
+f"""
+**=>> MORE 🧑‍🔧**
+
+- /musicplayer [ON/OFF]: ENABLE OR DISABLE MUSIC PLAYER FOR ALL MEMBERS
+- /admincache: UPDATES ADMIN INFO OF YOUR GROUP. TRY IF BOT ISN'T RECOGNIZING THE  ADMINS
+- /userbotjoin: INVITE @{ASSISTANT_NAME} USERBOT 
+""",
+f"""
+**=>>  DOWNLOAD SONGS VIDEOS/AUDIOS🎸**
+
+- /video [SONG mame]: DOWNLOAD VIDEO SONG FROM YOUTUBE
+- /song [SONG NAME]: DOWNLOAD AUDIO SONG FROM YOUTUBE
+THIS A CREATION @aspiree3 and @famouskaykay
+**=>> SEARCH TOOLS**
+
+- /search [song name]: SEARCH YOUTUBE FOR SONGS
+
+""",
+
+f"""
+**=>> COMMANDS FOR SUDO USERS ⚔️**
+
+ - /userbotleaveall - REMOVE ASSISTANT FROM ALL CHATS
+ - /broadcast <reply to message> - GLOBALLY BRODCAST REPLIED MESSAGE TO ALL CHATS
+ - /pmpermit [on/off] - ENABLE/DISABLE PMPERMIT MESSAGE
+*Sudo Users can execute any command in any groups
+
+"""
+      ]
