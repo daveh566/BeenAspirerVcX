@@ -18,3 +18,8 @@ from queues import task_done
 
 __all__ = ["clear", "get", "is_empty", "put", "task_done"]
 
+from admins import admins
+from admins import get
+from admins import set
+
+__all__ = ["set", "get", "admins"]
