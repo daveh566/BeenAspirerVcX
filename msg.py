@@ -3,7 +3,7 @@ from config import SOURCE_CODE
 from config import ASSISTANT_NAME
 from config import PROJECT_NAME
 from config import SUPPORT_GROUP
-from import UPDATES_CHANNEL
+from config import UPDATES_CHANNEL
 class Messages():
       START_MSG = "**HELLO 👋 [{}](tg://user?id={})!**\n\n🤖 I AM A COOL VC BOT FOR PLAYING SONGS IN GROUPS VCS.\n\n✅ CLICK /help FOR MORE PARTICULARS."
       HELP_MSG = [
