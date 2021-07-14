@@ -2,7 +2,7 @@ from typing import Dict
 
 from pytgcalls import GroupCall
 
-import client
+from callsmusic import client
 from queues import queues
 
 
