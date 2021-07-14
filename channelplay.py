@@ -41,7 +41,7 @@ from callsmusic import callsmusic
 from callsmusic import client as USER
 from converter import convert
 from downloaders import youtube
-from queues import queues
+from queue import queues
 
 chat_id = None
 
