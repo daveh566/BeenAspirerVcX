@@ -1,7 +1,7 @@
 {
   "name": "BeenAspirerVcX",
   "logo": "https://telegra.ph/file/aab1116662e9f61d2c4ef.jpg",
-  "description": "Vc Bot To Play Songs In Telegram Groups And Channels. Powered by Been Aspirer.",
+  "description": "Vc Bot To Play Songs In Telegram Groups And Channels. This is Kay/Aspirer Project 🎶.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/daveh566/BeenAspirerVcX",
   "stack": "heroku-20",
@@ -34,12 +34,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "intimacyfolks"
+      "value": "intimacyfolkz"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "AspirerVcX v1"
+      "value": "Kay/Aspirer V1"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
